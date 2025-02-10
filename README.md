@@ -9,7 +9,7 @@ The frontend application for Healthkard - A revolutionary healthcare platform pr
 
 ## 🌐 Live Platform
 - **Website**: [healthkard.in](https://healthkard.in)
-- **Region Served**: Narasaraopet and Guntur
+- **Region Served**: Guntur, Narasaraopet and Vijayawada
 - **Current Status**: Actively serving 2,000+ users across 25+ hospitals
 
 ## 🚀 Features
