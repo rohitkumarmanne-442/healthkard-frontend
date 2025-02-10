@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="HealthKard" content="HealthKard" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.svg" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Updated Google API script with necessary attributes -->
+    <script src="https://apis.google.com/js/api.js" async defer></script>
+    <script>
+        // Initialize Google API client
+        function initGoogleApi() {
+            window.gapi = window.gapi || {};
+            window.googleApiInitialized = false;
+        }
+    </script>
+    
+    <title>HealthKard</title>
+</head>
+
+<body onload="initGoogleApi()">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+</body>
+
+</html>

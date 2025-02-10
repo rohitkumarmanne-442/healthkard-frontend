@@ -1,0 +1,15 @@
+#table::-webkit-scrollbar {
+    /* width: 1px;
+  background-color: #303486; */
+    display: none;
+}
+
+#table::-webkit-scrollbar-thumb {
+    width: 1px;
+    height: 1px;
+    background-color: #303486;
+}
+
+#table-body {
+    height: calc(100% - 9rem);
+}
